@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color:#F2E6CE;
+}
+.fundo_menu{
+    height: 600px;
+    background-image: url("/historia/historia_roma/imagens/imagem_menu.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.fundo_barra_navegaçao{
+    background-color:rgb(140, 39, 58,0.8);
+    height: 100px;
+}
+.barra_navegaçao{
+    display:flex;
+    flex-flow: row wrap;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    text-align: center;
+    margin-left: 10%;
+}
+.logo h1{
+    color:#F2E6CE;
+    font-family: 'fantasy';
+    font-size: 36px;
+}
+.menu{
+    flex:70%;
+    text-align: right;
+}
+.menu a{
+    margin-right: 10%;
+    text-decoration: none;
+    color:#F2E6CE;
+    font-size:30px;
+    padding:25px 20px;
+}
+.menu a:hover{
+    color:#D95F5F;
+    border-top: 4px solid #D95F5F
+}
+.headline{
+    margin-left:10%;
+    flex:40%;
+    margin-top: 170px;
+}
+.headline h2{
+    font-weight:900;
+    font-size:30px;
+    color:#FFF8D9;
+    padding:0;
+    margin:0;
+
+}
