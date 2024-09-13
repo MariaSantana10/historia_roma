@@ -116,6 +116,25 @@ section h2{
 .card:hover .texto-oculto{
     display:block
 }
+.card-simples-escuro{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin:1%;
+    background:#8c273a;
+    color:#FFF8D9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-simples-claro{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin:1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .texto-oculto{
     display: none;
 }
