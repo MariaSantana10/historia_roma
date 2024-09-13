@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-color:#F2E6CE;
+}
+.margem{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contact-btn{
+    background: #8c273a;
+    padding: 15px 30px;
+    color:#FFF8D9;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute; 
+    margin-top: 90px;
+}
+.contact-btn:hover{
+    background: #FFF8D9;
+    color: #8c273a;
+}
+.imagem-principal{
+    height: 400px;
+    background-image: url("../historia_roma/imagens/roma1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    border-top: 3px solid #D95F5F;
+    border-left: 3px solid #D95F5F;
+    color: #8c273a;
+    font-size: 30px;
+}
+.card-simples-escuro{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin:1%;
+    background:#8c273a;
+    color:#FFF8D9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-text{
+    text-align: center;
+}
