@@ -58,6 +58,19 @@ body{
     padding:0;
     margin:0;
 }
+.contact-btn{
+    background: #8c273a;
+    padding: 15px 30px;
+    color:#FFF8D9;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    position: absolute; 
+}
+.contact-btn:hover{
+    background: #FFF8D9;
+    color: #8c273a; 
+}
 section{
     display: inline-block;
     margin-top: 80px;
@@ -114,7 +127,6 @@ footer{
 }
 .logo-rodape{
     padding: 100px;
-
 }
 .materia{
     color:#F2E6CE;

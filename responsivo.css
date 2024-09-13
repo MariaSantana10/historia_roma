@@ -17,4 +17,8 @@
     .card{
         width: 100%;
     }
+    .contact-btn{
+        top: 75%; 
+        left: 37%;
+    }
 }
