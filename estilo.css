@@ -66,6 +66,7 @@ body{
     border-radius: 5px;
     text-decoration: none;
     position: absolute; 
+    margin-top: 15px;
 }
 .contact-btn:hover{
     background: #FFF8D9;
