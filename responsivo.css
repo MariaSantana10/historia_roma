@@ -1,0 +1,20 @@
+@media screen and (max-width:1005px){
+    .logo{
+        margin:0;
+        text-align: center;
+    }
+    .fundo_barra_navegaçao{
+        position: relative;
+    }
+    .menu{
+        display:none;
+    }
+    .headline{
+        flex:100%;
+        margin:5%;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+    }
+}
