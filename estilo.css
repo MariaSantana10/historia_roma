@@ -7,7 +7,7 @@ body{
 }
 .fundo_menu{
     height: 600px;
-    background-image: url("../historia_roma/imagens/imagem_menu.jpg");
+    background-image: url("imagens/imagem_menu.jpg");
     background-size: cover;
     background-position: center;
 }
