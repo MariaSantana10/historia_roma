@@ -61,7 +61,6 @@ h1{
 }
 .container{
     margin-top: 20px;
-    border: 1px solid #8c273a;
     overflow: auto;
 }
 .container img{
