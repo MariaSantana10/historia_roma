@@ -59,3 +59,12 @@ h1{
 .card-text{
     text-align: center;
 }
+.container{
+    margin-top: 20px;
+    border: 1px solid #8c273a;
+    overflow: auto;
+}
+.container img{
+    float: left;
+    margin-right: 20px;
+}
