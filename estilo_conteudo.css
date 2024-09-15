@@ -56,8 +56,24 @@ h1{
     border-radius: 10px;
     cursor: pointer;
 }
+.card-simples-escuro a{
+    background:#8c273a;
+    color:#FFF8D9;
+    text-decoration-color: #FFF8D9;
+}
 .card-text{
     text-align: center;
+}
+.card-simples-escuro:hover{
+    background:#FFF8D9;
+    color:#8c273a;
+    padding: 40px;
+}
+.card-simples-escuro:hover a{
+    background:#FFF8D9;
+    color:#8c273a;
+    padding: 40px;
+    text-decoration-color: #8c273a;
 }
 .container{
     margin-top: 20px;
@@ -66,4 +82,7 @@ h1{
 .container img{
     float: left;
     margin-right: 20px;
+}
+a{
+    text-decoration: none;
 }
